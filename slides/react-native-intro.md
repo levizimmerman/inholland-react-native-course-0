@@ -88,23 +88,68 @@ class: invert
 
 # Our React Native Projects
 
+<style>
+.projects-flex {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+.project-item {
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 0;
+}
+.project-item video {
+  width: 100%;
+  max-width: 220px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  background: #000;
+  display: block;
+}
+.project-caption {
+  margin-top: 0.5rem;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+}
+@media (max-width: 900px) {
+  .projects-flex {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .project-item video {
+    max-width: 100%;
+  }
+}
+</style>
 
-<table style="width:100%; table-layout:fixed; border:none;">
-  <tr style="border:none;">
-    <td style="width:20%; border:none;"><video src="./assets/demo-fleurametz.mp4" autoplay loop muted controls></video></td>
-    <td style="width:20%; border:none;"><video src="./assets/demo-knvb.mp4" autoplay loop muted controls></video></td>
-    <td style="width:20%; border:none;"><video src="./assets/demo-mind-oasis.mp4" autoplay loop muted controls></video></td>
-    <td style="width:20%; border:none;"><video src="./assets/demo-new-black.mp4" autoplay loop muted controls></video></td>
-    <td style="width:20%; border:none;"><video src="./assets/demo-vfz.mp4" autoplay loop muted controls></video></td>
-  </tr>
-  <tr style="border:none;">
-    <td style="width:20%; border:none; text-align:center;">Fleurametz</td>
-    <td style="width:20%; border:none; text-align:center;">KNVB</td>
-    <td style="width:20%; border:none; text-align:center;">Rituals</td>
-    <td style="width:20%; border:none; text-align:center;">New Black</td>
-    <td style="width:20%; border:none; text-align:center;">VodafoneZiggo</td>
-  </tr>
-</table>
+<div class="projects-flex">
+  <div class="project-item">
+    <video src="./assets/demo-fleurametz.mp4" autoplay loop muted controls></video>
+    <div class="project-caption">Fleurametz</div>
+  </div>
+  <div class="project-item">
+    <video src="./assets/demo-knvb.mp4" autoplay loop muted controls></video>
+    <div class="project-caption">KNVB</div>
+  </div>
+  <div class="project-item">
+    <video src="./assets/demo-mind-oasis.mp4" autoplay loop muted controls></video>
+    <div class="project-caption">Rituals</div>
+  </div>
+  <div class="project-item">
+    <video src="./assets/demo-new-black.mp4" autoplay loop muted controls></video>
+    <div class="project-caption">New Black</div>
+  </div>
+  <div class="project-item">
+    <video src="./assets/demo-vfz.mp4" autoplay loop muted controls></video>
+    <div class="project-caption">VodafoneZiggo</div>
+  </div>
+</div>
 
 
 ---
