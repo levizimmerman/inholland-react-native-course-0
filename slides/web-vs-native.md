@@ -4,7 +4,7 @@ theme: default
 class: invert
 ---
 
-# React vs React Native
+# React vs React Native 0
 ## Key Differences and Commonalities
 
 ![bg right](./assets/ven-diagram.avif)
