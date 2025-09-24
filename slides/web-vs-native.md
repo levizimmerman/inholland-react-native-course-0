@@ -349,38 +349,42 @@ const Button = Platform.OS === 'ios' ? TouchableOpacity : TouchableNativeFeedbac
 ---
 
 ## Development Tools - React Web
-```jsx
-// React Web Development
-// - Browser DevTools (Elements, Console, Network)
-// - React DevTools extension
-// - Hot reload in browser
-// - Network tab for API debugging
-// - Lighthouse for performance
-// - Webpack/Vite dev server
-```
+
+- Browser DevTools (Elements, Console, Network)
+- React DevTools extension
+- Hot reload in browser
+- Network tab for API debugging
+- Lighthouse for performance
+- Webpack/Vite dev server
 
 ---
 
 ## Development Tools - React Native
-```jsx
-// React Native Development
-// - Chrome Dev Tools / Rozenite
-// - Proxyman (or any proxy tool)
-// - Device/Simulator testing
-// - Fast Refresh
-// - Xcode for iOS
-// - Android Studio for Android
-```
+
+- Chrome Dev Tools / Rozenite
+- Proxyman (or any proxy tool)
+- Device/Simulator testing
+- Fast Refresh
+- Xcode for iOS
+- Android Studio for Android
+
+---
+
+## Development Tools - React Native
+
+<iframe src="https://link.excalidraw.com/readonly/Iu3u5LjJ3OffkXZEhBAy?darkMode=true" width="100%" height="100%" style="border: none;"></iframe>
 
 ---
 
 ## Build & Deployment - Web
+
 <iframe src="https://link.excalidraw.com/readonly/IJz3bL7qQjQIaG2vtPMS?darkMode=true" width="800" height="100%" style="border: none;"></iframe>
 
 
 ---
 
 ## Build & Deployment - Mobile
+
 <iframe src="https://link.excalidraw.com/readonly/Wjl2GcYgUDM8XHwode0p?darkMode=true" width="800" height="100%" style="border: none;"></iframe>
 
 ---
@@ -406,3 +410,25 @@ const Button = Platform.OS === 'ios' ? TouchableOpacity : TouchableNativeFeedbac
 - 🔄 Platform-specific features
 - 🔄 Development tools
 - 🔄 Build processes
+
+--- 
+
+# The saga continues...
+
+## Next time
+- Brief history of hybrid development
+- Setup a project
+- Creating a page and styling it
+- Key components: View, Text, Pressable, Scrollview, Flatlist
+- Navigation: stack & tabs
+
+---
+
+# Homework
+- Visit: [get started with Expo](https://docs.expo.dev/get-started/introduction/)
+- Follow the steps:
+    - _Create a project_
+    - _Setup your environment_
+    - _Start developing_
+
+![bg right w:350](./assets/github-qr.png)

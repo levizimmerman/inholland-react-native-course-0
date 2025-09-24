@@ -167,7 +167,7 @@ class: invert
 
 <section>
 
-#### Day 0
+#### Day 0 👈
 - Intro
 - Web vs Native
 
@@ -177,7 +177,6 @@ class: invert
 
 #### Day 1
 - Hybrid development
-- Syntax
 - Setup
 - Pages
 - Components
